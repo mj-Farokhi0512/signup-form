@@ -1,0 +1,41 @@
+@font-face {
+  font-family: bnazanin;
+  src: url("fonts/bnazanin.woff");
+}
+
+#main {
+  max-width: 450px;
+  margin: 100px auto;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 8px;
+}
+
+.buttons button {
+  border: none;
+  border-radius: none;
+  margin: 30px 0;
+  background-color: lightblue;
+}
+
+.buttons button:hover {
+  background-color: rgba(95, 158, 160, 0.6);
+}
+
+.links {
+  text-decoration: none;
+  color: #eee;
+  font-size: 24px;
+  display: block;
+  width: 120px;
+  line-height: 160%;
+  font-family: bnazanin;
+}
+
+/* .blur {
+  background-color: lightblue;
+} */
+
+.focus {
+  background-color: cadetblue;
+}
